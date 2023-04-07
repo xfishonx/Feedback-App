@@ -1,0 +1,81 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.box-container {
+  background-color: #ffffff;
+  height: 350px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-top: 100px;
+  border-radius: 12px;
+}
+.content-head {
+  color: #0f172a;
+  font-size: 24px;
+  width: 450px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-family: 'Roboto';
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+}
+.box-container2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 500px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.love-emoji {
+  height: 50px;
+  width: 50px;
+}
+.thank-you-head {
+  color: #0f172a;
+  font-size: 22px;
+  font-family: 'roboto';
+  font-weight: 500;
+}
+.concern {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #1e293b;
+  text-align: center;
+}
+.li {
+  list-style-type: none;
+}
+.emoji-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  margin-top: 25px;
+}
+.emoji-pic {
+  height: 60px;
+  width: 60px;
+  margin-right: 38px;
+}
+.expression-name {
+  font-size: 15px solid;
+  font-family: 'roboto';
+  color: #1e293b;
+  padding-left: 5px;
+}
